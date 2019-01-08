@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.m-header {
+  padding: 24px 0;
+  position: relative;
+  width: 100%;
+}
+
+.m-container {
+  position: relative;
+  max-width: 1160px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.m-container:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+@media screen and (min-width: 767px) {
+  .m-container {
+    padding: 0 24px;
+  }
+}
