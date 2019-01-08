@@ -126,6 +126,7 @@ class SearchBox extends React.Component {
     this.hideSuggestions();
     this.setState({
       displayClearButton: false,
+      error: '',
     });
   }
 
